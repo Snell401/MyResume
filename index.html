@@ -731,7 +731,7 @@
               <p>Run queries against a MongoDB instance in order to store, manipulate and retrieve data. How to use the Node.js MongoDB driver to directly manipulate data from Node.js</p>
             </div>
           </div>
-
+          <!-- ADD bootstrap and SCSS here! -->
         </div>
 
       </div>
@@ -781,7 +781,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form name="contact" action="forms/contact.php" method="POST" role="form" class="php-email-form" data-netlify="true" >
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -802,7 +802,27 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+            </form> 
+            <!-- <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label>Your Name: <input type="text" name="name" /></label>
+              </p>
+              <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Your Role: <select name="role[]" multiple>
+                  <option value="leader">Leader</option>
+                  <option value="follower">Follower</option>
+                </select></label>
+              </p>
+              <p>
+                <label>Message: <textarea name="message"></textarea></label>
+              </p>
+              <p>
+                <button type="submit">Send</button>
+              </p>
+            </form> -->
 
           </div>
 
