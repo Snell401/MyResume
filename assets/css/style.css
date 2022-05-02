@@ -236,12 +236,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/boat.snell.jpg") no-repeat;
+  /* background: url("../img/boatsnell.jpg") no-repeat;
   /* move the pic right */
   background-position: right;
   
   background-size: cover;
-  position: relative;
+  position: relative; 
 }
 @media (min-width: 992px) {
   #hero {
