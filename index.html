@@ -803,7 +803,8 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>  -->
-            <form name="contact" method="POST" data-netlify="true" id="email-form">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" id="email-form" >
+              
               <div class="row">
               <p class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Name:"/>
@@ -821,6 +822,7 @@
                   <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                 </div>
               </p>
+              <div data-netlify-recaptcha="true"></div>
               <p class="text-center">
                 <button type="submit">Send</button>
               </p>
