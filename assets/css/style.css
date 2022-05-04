@@ -906,13 +906,13 @@ section {
   fill: #639a20;
 }
 .services .iconbox-mongoGreen i {
-  color: #639a20;
+  color: #4faa41;
 }
 .services .iconbox-mongoGreen:hover .icon i {
   color: rgb(1, 1, 1);
 }
 .services .iconbox-mongoGreen:hover .icon path {
-  fill: #639a20;
+  fill: rgb(1, 1, 1);
 }
 #mongoImage {
   z-index: 1;
@@ -921,6 +921,12 @@ section {
 .services .iconbox-orange i #CSS3 {
   color: #254bdd 
 }
+
+.mongoDB-logo {
+ z-index: 1;
+ height: 50px;
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
